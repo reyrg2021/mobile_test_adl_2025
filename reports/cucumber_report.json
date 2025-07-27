@@ -1,0 +1,381 @@
+[
+  {
+    "description": "  Como usuario\n  Quiero calcular mi IMC\n  Para conocer mi estado de salud",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculadora-imc;calcular-imc-con-valores-válidos-en-los-campos-de-peso-y-estatura",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Calcular IMC con valores válidos en los campos de peso y estatura",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4445521300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que tengo la aplicación de calculadora IMC abierta",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1791027300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "ingreso peso \"73\" kilogramos",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2055932700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "ingreso estatura \"176\" centímetros",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2143349399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "presiono el botón calcular",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 679595299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "debería ver el resultado del IMC",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 649078800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 347572399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculadora-imc;calcular-imc-con-al-menos-un-valor-negativo-en-los-campos",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Calcular IMC con al menos un valor negativo en los campos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3995223100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que tengo la aplicación de calculadora IMC abierta",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1793362099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "ingreso peso \"-73\" kilogramos",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2040246599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "ingreso estatura \"176\" centímetros",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2151031500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "presiono el botón calcular",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 684355299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "debería ver un mensaje de error que dice \"Por favor, introduce un peso y altura válidos.\"",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 860637999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 333595100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculadora-imc;calcular-imc-con-al-menos-un-valor-vacío-en-los-campos",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Calcular IMC con al menos un valor vacío en los campos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000964899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que tengo la aplicación de calculadora IMC abierta",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1771352300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "ingreso peso \"73\" kilogramos",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2048878600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "ingreso estatura \"\" centímetros",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2145795999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "presiono el botón calcular",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585212900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "debería ver un mensaje de error que dice \"Por favor, introduce un peso y altura válidos.\"",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 730320500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 339421300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculadora-imc;calcular-imc-con-al-menos-un-valor-texto-en-los-campos",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Calcular IMC con al menos un valor texto en los campos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3969488399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que tengo la aplicación de calculadora IMC abierta",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1782435599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "ingreso peso \"73\" kilogramos",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2049519700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "ingreso estatura \"peso\" centímetros",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2147088199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "presiono el botón calcular",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 700912400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "debería ver un mensaje de error que dice \"Por favor, introduce un peso y altura válidos.\"",
+            "match": {
+              "location": "step-definitions\\steps-calculadora.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 748160100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 431715700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculadora-imc",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Calculadora IMC",
+    "tags": [],
+    "uri": "features\\calculadora.feature"
+  }
+]

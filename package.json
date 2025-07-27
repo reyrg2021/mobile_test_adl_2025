@@ -1,0 +1,26 @@
+{
+  "name": "calculadoraimc_v1",
+  "version": "1.0.0",
+  "main": "cucumber.js",
+  "scripts": {
+    "test:cucumber": "cucumber-js",
+    "test:jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@cucumber/html-formatter": "^21.13.0",
+    "@cucumber/pretty-formatter": "^2.0.1",
+    "allure-cucumberjs": "^3.3.2",
+    "allure-jest": "^3.3.2",
+    "chai": "^5.2.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "jest": "^30.0.5",
+    "jest-environment-node": "^30.0.5",
+    "jest-html-reporter": "^4.3.0",
+    "webdriverio": "^9.18.4"
+  }
+}

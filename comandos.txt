@@ -1,0 +1,12 @@
+
+# INSTALAR LAS DEPENDENCIAS NECESARIAS
+npm install --save-dev @cucumber/cucumber chai webdriverio @cucumber/html-formatter allure-cucumberjs @cucumber/pretty-formatter cucumber-html-reporter jest jest-html-reporter allure-jest jest-environment-node
+
+# EJECUTAR jest
+npm run test:jest
+
+# EJECUTAR cucumber
+npm run test:cucumber
+
+# GENERAR REPORTE allure
+allure serve allure-results
