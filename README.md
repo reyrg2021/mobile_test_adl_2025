@@ -19,7 +19,7 @@ Framework de testing automatizado para aplicaciones móviles utilizando **Appium
 - Crear y configurar un emulador Android
 
 ### 2. Instalar Appium
-```bash
+```
 # Instalar Appium globalmente
 npm install -g appium
 
