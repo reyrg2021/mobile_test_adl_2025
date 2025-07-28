@@ -11,7 +11,7 @@ Framework de testing automatizado para aplicaciones móviles utilizando **Appium
 - **JavaScript/Node.js** - Lenguaje de programación y runtime
 - **Android Studio** - Emulador y herramientas de desarrollo Android
 
-## 🛠Prerrequisitos
+## Prerrequisitos
 
 ### 1. Instalar Android Studio
 - Descargar e instalar [Android Studio](https://developer.android.com/studio)
@@ -73,7 +73,7 @@ emulator -avd [NOMBRE_DEL_AVD]
 adb devices
 ```
 
-## ▶Ejecución de Pruebas
+## Ejecución de Pruebas
 
 ### Framework Jest
 ```bash
@@ -155,7 +155,7 @@ Feature: Mobile Login
     Then debería ver la pantalla principal
 ```
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
